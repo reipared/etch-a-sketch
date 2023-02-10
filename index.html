@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta tags -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Title -->
+		<title>Etch-a-sketch</title>
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+		/>
+
+		<!-- Icon -->
+		<link rel="shortcut icon" href="favicon.ico" />
+
+		<!-- Stylesheet -->
+		<link rel="stylesheet" href="styles/style.css" />
+
+		<!-- Script -->
+		<script
+			src="https://kit.fontawesome.com/4c536a6bd5.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header class="header">
+			<h1 class="settings"></h1>
+		</header>
+		<main class="main">
+			<div class="settings">
+				<input
+					type="color"
+					id="colorPicker"
+					value="#333333"
+					aria-label="color picker"
+				/>
+				<button id="colorBtn">Color mode</button>
+				<button id="rainbowBtn">Rainbow mode</button>
+				<button id="eraserBtn">Eraser</button>
+				<button id="clearBtn">Clear</button>
+				<div id="sizeValue" class="size-value">16 x 16</div>
+				<input
+					type="range"
+					id="sizeSlider"
+					value="16"
+					min="1"
+					max="64"
+					aria-label="size slider"
+				/>
+			</div>
+			<div id="grid" class="grid"></div>
+		</main>
+		<footer class="footer">
+			<p>
+				Copyright ©
+				<script>
+					document.write(new Date().getFullYear());
+				</script>
+				reipared
+			</p>
+			<a
+				href="https://github.com/reipared"
+				target="_blank"
+				aria-describedby="reipared github link"
+			>
+				<i class="fab fa-github"></i>
+			</a>
+		</footer>
+
+		<!-- JavaScript -->
+		<script src="script.js"></script>
+	</body>
+</html>
