@@ -126,4 +126,9 @@ input[type="color"]::-webkit-color-swatch {
 }
 
 input[type="range"] {
+	-webkit-appearance: none;
+	background-color: var(--primary-light);
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
 }
