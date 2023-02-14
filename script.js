@@ -67,7 +67,7 @@ function setupGrid(size) {
 		const gridElement = document.createElement("div");
 		gridElement.classList.add("grid-element");
 		gridElement.addEventListener("mouseover", changeColor);
-		gridElement.addEventListener9("mousedown", changeColor);
+		gridElement.addEventListener("mousedown", changeColor);
 		grid.appendChild(gridElement);
 	}
 }
