@@ -40,7 +40,3 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 ### Acknowledgments
 
 The "Etch-a-Sketch" application was created as a simple project to practice HTML, CSS, and JavaScript. It was inspired by the classic toy "Etch A Sketch" and is for educational purposes only.
-
-### Author
-
-This application was developed by [Your Name]. For any questions or feedback, please contact [Your Email Address].
