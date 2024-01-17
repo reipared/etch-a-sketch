@@ -2,7 +2,7 @@
 
 This is a simple web application called "Etch-a-Sketch" that allows users to draw on a sketchpad using their mouse. The application provides a grid of square div elements that change color when hovered over. Users can also clear the grid with a click of a button.
 
-You can access the live demo of the application [here](https://reipared.github.io/etch-a-sketch/).
+You can access the live demo of the application [here](https://etch-a-sketch.reipared.com/).
 
 ### Files
 
